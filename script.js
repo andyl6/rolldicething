@@ -14,15 +14,15 @@ const generateNum = () => {
 const rollfirst = () => {
     const rollfirst = generateNum();
     rollone = rollfirst;
-    dice1.textContent = `Dice 1: ${rollfirst}`;
-    total.textContent = `Total: ${rollfirst + rolltwo}`;
+    dice1.textContent = `die 1: ${rollfirst}`;
+    total.textContent = `total: ${rollfirst + rolltwo}`;
 };
 
 const rollsecond = () => {
     const rollsecond = generateNum();
     rolltwo = rollsecond;
-    dice2.textContent = `Dice 2: ${rollsecond}`;
-    total.textContent = `Total: ${rollone + rollsecond}`;
+    dice2.textContent = `die 2: ${rollsecond}`;
+    total.textContent = `total: ${rollone + rollsecond}`;
 };
 
 const rollBoth = () => {
